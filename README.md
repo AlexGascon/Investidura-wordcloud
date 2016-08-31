@@ -7,10 +7,10 @@ Para ello, debe proporcionarse un fichero PDF del que se extraerá el texto. Des
 # Ejemplos: 
 
 ## Discurso de Mariano Rajoy
-![Wordcloud Rajoy](https://github.com/AlexGascon/Investidura-wordcloud/blob/master/result/Rajoy_wordcloud.bmp)
+![Wordcloud Rajoy](https://github.com/AlexGascon/Investidura-wordcloud/blob/master/result/rajoy_combinado.jpg)
 
 ## Discurso de Pedro Sánchez
-![Wordcloud Sanchez](https://github.com/AlexGascon/Investidura-wordcloud/blob/master/result/Sanchez_wordcloud.bmp)
+![Wordcloud Sanchez](https://github.com/AlexGascon/Investidura-wordcloud/blob/master/result/sanchez_combinado.jpg)
 
 
 Para generar el Wordcloud se utiliza la librería [word_cloud](https://github.com/amueller/word_cloud).
