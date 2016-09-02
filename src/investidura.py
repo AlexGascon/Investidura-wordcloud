@@ -11,7 +11,7 @@ generic_PDF = "D:\Python projects\Investidura wordcloud\PDF\{}.pdf"
 generic_output = "D:\Python projects\Investidura wordcloud\\result\{}_wordcloud.bmp"
 
 #Array con los filename de todos los archivos a analizar
-politicos = ["Rajoy", "Sanchez"]
+politicos = ["Rajoy", "Sanchez", "Iglesias", "Rivera"]
 
 for politico in politicos:
 
@@ -54,5 +54,6 @@ for politico in politicos:
 	wc.generate(text)
 	im = wc.to_image()
 
+	#Guardamos el resultado
 	outname = generic_output.format(politico)
 	im.save(outname)
